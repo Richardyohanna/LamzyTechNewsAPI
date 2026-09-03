@@ -25,9 +25,9 @@ public class RegisterRequest {
     @Size(min = 6, message = "Password must be at least 6 characters")
     private String password;
 
-    @NotBlank(message = "Department is required")
+    
     private String department;
 
-    @NotBlank(message = "Level is required")
+   
     private String level;
 }
